@@ -6,10 +6,6 @@ test('a toEqual b passes', () => {
   expect(a).toEqual(b);
 })
 
-test('a toEqual c fails', () => {
-  expect(a).toEqual(c);
-})
-
 const objA = {
   first: '1',
   second: '2',

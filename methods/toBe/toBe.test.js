@@ -25,8 +25,3 @@ const b = {};
 test('object reference to SAME object to be true', () => {
   expect(a).toBe(a);
 })
-
-// test fails
-test('object reference to DIFFERENT object to be false', () => {
-  expect(a).toBe(b);
-})
