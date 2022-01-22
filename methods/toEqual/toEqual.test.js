@@ -6,6 +6,10 @@ test('a toEqual b passes', () => {
   expect(a).toEqual(b);
 })
 
+test('a toEqual b passes', () => {
+  expect(a).not.toEqual(c);
+})
+
 const objA = {
   first: '1',
   second: '2',
@@ -24,4 +28,8 @@ const objC = {
 
 test('objA equal to objB will pass', () => {
   expect(objA).toEqual(objB);
+})
+
+test('objA equal to objB will pass', () => {
+  expect(objA).not.toEqual(objC);
 })
