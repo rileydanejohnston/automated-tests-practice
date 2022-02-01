@@ -1,0 +1,22 @@
+{
+  "name": "automated-tests-practice",
+  "version": "1.0.0",
+  "description": "practice automated tests with jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rileydanejohnston/automated-tests-practice.git"
+  },
+  "author": "Riley Johnston",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rileydanejohnston/automated-tests-practice/issues"
+  },
+  "homepage": "https://github.com/rileydanejohnston/automated-tests-practice#readme",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}
